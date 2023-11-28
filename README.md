@@ -1,18 +1,17 @@
 # DCIT_205_IA
-<<<<<<< HEAD
 
-=======
-Kayor Rahina Abubakar(11011787)
-INTRODUCTION AND PURPOSE:
+
+Kayor Rahina Abubakar(11011787) <br>
+# INTRODUCTION AND PURPOSE:
 Welcome to the Department of Computer Science webpage! This website acts as a central location to obtain important data and departmental resources. This website is intended to give you extensive information on our offers, teachers, research, courses, and events, whether you're a student, faculty member, or someone else interested in computer science.
 
-PURPOSE: 
+## PURPOSE: 
 The goal of creating a website for a department of computer science is to give different people a simple and convenient way to communicate and participate with the department. This include presenting the department's instructors, research projects, course offerings, and possible career pathways. In order to draw in prospective students interested in studying computer science, the website can also be used as a recruitment tool.
 
-HOW TO CLONE AND SETUP FOR THE PROJECT:
+# HOW TO CLONE AND SETUP FOR THE PROJECT:
 Open a terminal or command prompt on your computer. Navigate to the directory where you to clone the project. Run the following command to clone the project: git clone Once the project is cloned, navigate into the project directory by running the following command: cd
 
-WHAT I HAVE LEARNT FROM THE PROJECT:
+# WHAT I HAVE LEARNT FROM THE PROJECT:
 I have learned a lot about web development techniques and user experience design working on this project. It has improved my knowledge in HTML, CSS and React,  and given me practical experience in building an information-focused website that satisfies the demands of our wide range of users. The significance of accessibility and clear communication in web design was emphasized by this initiative.
 
 
