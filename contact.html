@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      .nav-bar {
+        width: 100%;
+        height: 90px;
+        background-color: white;
+        opacity: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .nav-bar .logo {
+        width: 200px;
+        margin-left: 20px;
+        display: inline-block;
+        position: relative;
+        padding-bottom: 0;
+      }
+
+      .nav-bar .logo img {
+        width: 360px;
+        padding-top: 16px;
+      }
+
+      .nav-link {
+        color: #333;
+        padding-left: 14px;
+        padding-bottom: 10px;
+        padding-right: 14px;
+        text-decoration: none;
+      }
+      .nav-link.current {
+        color: #292d77;
+        border-bottom: 2px solid #4d5ee3;
+      }
+      .footer {
+        background-color: #1a3e63;
+        color: white;
+        padding: 20px;
+        font-size: 16px;
+      }
+      .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        max-width: 1200px;
+      }
+      .form {
+        margin-right: 31px;
+        display: flex;
+      }
+      .submit-button {
+        height: 38px;
+        background-color: #a3884e;
+        border: none;
+        color: #fff;
+        padding-inline: 10px;
+      }
+      .contact-btn{
+      color: white;
+      }
+      header {
+        background: #0a0073;
+        color: #fff;
+        padding: 20px 10px;
+        text-align: center;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .h1 {
+        color: white;
+      }
+
+      .details {
+        color: #555;
+        line-height: 1.6;
+      }
+      form {
+        margin-top: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 8px;
+        color: #333;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 16px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+
+      button {
+        background: #4caf50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      iframe {
+        width: 100%;
+        height: 300px;
+        border: 0;
+        border-radius: 8px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="logo">
+        <img src="./images/DCS_logo.png" alt="DCS logo" />
+      </div>
+      <div class="navbar-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="faculty.html" class="nav-link">Faculty</a>
+        <a href="research.html" class="nav-link">Research</a>
+        <a href="news.html" class="nav-link">News</a>
+        <a href="events.html" class="nav-link">Events</a>
+      </div>
+    </div>
+    <header>
+      <h1 class="h1">Contact the Computer Science Department</h1>
+      <p class="h1-msg">Empowering Minds, Transforming Futures</p>
+    </header>
+
+    <div class="container">
+      <h2>Connect with Us</h2>
+      <p>
+        Whether you have questions, feedback, or just want to say hello, we'd
+        love to hear from you. Fill out the form below, and we'll get back to
+        you as soon as possible.
+      </p>
+
+      <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+      &nbsp;
+      <h2>Visit Us</h2>
+      &nbsp;
+      <p class="details">
+        Computer Science Department<br />
+        University of Ghana,Legon<br />
+        Campus<br />
+        Opposite Mathematics<br />
+        Department &nbsp;
+      </p>
+      <h2>Find Us on the Map</h2>
+      <iframe
+        src="https://th.bing.com/th/id/R.1e98e0dd9b6348ea24c773e3734311f3?rik=jJ05XXr6h%2fD7eQ&pid=ImgRaw&r=0" 
+        frameborder="0"
+        style="border: 0"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="foot1">
+          <h2>Academics</h2>
+          <br />
+          <p>Undergraduate Courses</p>
+          <br />
+          <p>Graduate Courses(MPhil Computer Science)</p>
+          <br />
+          <p>Graduate Courses(MSc Computer Science)</p>
+          <br />
+          <p>Graduate Courses</p>
+          <br />
+          <p>Academic Calendar</p>
+          <br />
+          <p>Level 200 & 300 Timetable</p>
+          <br />
+          <p>Placements For Level 200 Students</p>
+          <br />
+          <p>Student Complaint Form</p>
+        </div>
+        <div class="foot2">
+          <h2>Admissions</h2>
+          <br />
+          <p>Undergraduate</p>
+          <br />
+          <p>Graduate</p>
+          <br />
+          <p>International Students</p>
+          <br />
+          <p>Entry Requirements</p>
+          <br />
+          <a
+            href="contact.html"
+            class="contact-btn"
+            id="contact-button"
+            target="_blank"
+          >
+            Contact Us
+          </a>
+        </div>
+        <div class="foot3">
+          <h2>Research</h2>
+          <br />
+          <p>Research at DCS</p>
+          <br />
+          <p>Libraries</p>
+        </div>
+        <div class="foot4">
+          <h2>About The Department</h2>
+          <br />
+          <p>Introducing DCS</p>
+          <br />
+          <p>Head of Department's office</p>
+          <br />
+          <p>Faculty</p>
+          <br />
+          <p>Events</p>
+        </div>
+        <div class="foot5">
+          <h2>Newsletter</h2>
+          <br />
+          <p class="slight">Stay update with our latest</p>
+          <br />
+
+          <div class="w-form">
+            <form
+              id="email-form"
+              name="email-form"
+              data-name="Email Form"
+              method="get"
+              class="form"
+            >
+              <input
+                type="text"
+                class="text-field w-input"
+                maxlength="256"
+                name="name"
+                data-name="Name"
+                placeholder="Enter Email Address"
+                id="name"
+              /><input
+                type="submit"
+                value="Submit"
+                class="submit-button w-button"
+              />
+            </form>
+          </div>
+        </div>
+        <div>
+          <h2 class="call">Reach Us</h2>
+          <br />
+          <h2 class="h-tag">Phone & Email</h2>
+          <br />
+          <p class="p-tag">
+            +233 501 382 035 <br />
+            +233 559 145 698 <br />
+            dcs@ug.edu.gh
+          </p>
+        </div>
+        <div class="foot7">
+          <h2>Location</h2>
+          <br />
+          <p class="p-tag2">
+            University Of Ghana, Legon<br />
+            Campus<br />
+            Opposite<br />
+            Mathematics Department
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

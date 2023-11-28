@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./CSS/dcs.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="./CSS/dcs.css">
 </head>
 <body>
     <div class="nav-bar">
         <div class="logo">
             <img src="./images/DCS_logo.png" alt="DCS logo">
         </div>
-        <div class="menu">
-            <a href="dcs.html"><li>Home</li></a>
-            <a href="about.html"><li>About</li></a>
-            <a href="faculty.html"><li>Faculty</li></a>
-            <a href="research.html"><li>Research</li></a>
+        <div class="navbar-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link current">About</a>
+            <a href="faculty.html" class="nav-link">Faculty</a>
+            <a href="research.html" class="nav-link">Research</a>
+            <a href="news.html" class="nav-link">News</a>
+            <a href="events.html" class="nav-link">Events</a>
         </div>
     </div>
     <div>
-        <p class="about-text">About Us</p>
         <div class="about">
+            <p class="about-text">About Us</p>
             <p class="about-msg">
                 Get ready to join us<br> on this exciting journey<br>and lets
                 make a difference <span class="together">together!</span>
@@ -32,6 +34,12 @@
     </div>
     <div>
         <div>
+            <p class="overview">Overview</p>
+            <p class="overview-txt">Computer science is the foundation of the information technology era that we are living in. Therefore, if society is to achieve quick economic advancements and fully benefit from information technology, 
+               computer science education is essential. The study and creation of programs that enable us to use computers on a daily basis, the software systems that underpin these applications, and the techniques and procedures employed to create applications and systems that function dependably, accurately,
+               and morally are all included in computer science.
+               Employers who recruit computer scientists demand competent programmers with knowledge of modern techniques and tools as well as the ability to apply good engineering concepts to the development, production,
+               and maintenance of their products. Computer programming is at the core of computer science.</p>
             <p class="vision">Our Vision</p>
             <p class="vision-txt">Imagine a time when each and every byte of code is a work of art.
               That's how we see it. We want to be more than just teachers; 
@@ -62,7 +70,7 @@
                 and establish a connection with a community that not only embraces change but actively promotes it.
             </p>
         </div>
-    </div>
+    </div> &nbsp
     <footer class="footer">
         <div class="footer-container">
             <div class="foot1">
@@ -82,7 +90,9 @@
                 <p>Graduate</p><br>
                 <p>International Students</p><br>
                 <p>Entry Requirements</p><br>
-                <p>Contact Us</p>
+                <a href="contact.html" class="contact-btn" id="contact-button" target="_blank"> 
+                    Contact Us
+                </a> 
             </div>
             <div class="foot3">
                 <h2>Research</h2><br>
@@ -100,13 +110,33 @@
                 <h2>Newsletter</h2><br>
                 <p class="slight">Stay update with our latest</p><br>
             
-                <div class="search-container">
-                    <input type="email" class="search-bar" placeholder="Enter Email Address">
-                </div>
+                <div class="w-form">
+                    <form
+                    id="email-form"
+                    name="email-form"
+                    data-name="Email Form"
+                    method="get"
+                    class="form"
+                    >
+                    <input
+                        type="text"
+                        class="text-field w-input"
+                        maxlength="256"
+                        name="name"
+                        data-name="Name"
+                        placeholder="Enter Email Address"
+                        id="name"
+                    /><input
+                        type="submit"
+                        value="Submit"
+                        class="submit-button w-button"
+                    />
+                    </form>
+              </div>
                 
             </div>
             <div>
-                <h2 class="call">Contact Us</h2><br>
+                <h2 class="call">Reach Us</h2><br>
                 <h2 class="h-tag">Phone & Email</h2><br>
                 <p class="p-tag">
                     +233 501 382 035 <br>

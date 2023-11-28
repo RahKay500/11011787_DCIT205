@@ -11,11 +11,13 @@
             <div class="logo">
               <img src="./images/DCS_logo.png" alt="DCS logo" />
             </div>
-            <div class="menu">
-                <a href="#"><li>Home</li></a>
-                <a href="about.html"><li>About</li></a>
-                <a href="faculty.html"><li>Faculty</li></a>
-                <a href="research.html"><li>Research</li></a>
+            <div class="navbar-links">
+                <a href="index.html" class="nav-link current">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="faculty.html" class="nav-link">Faculty</a>
+                <a href="research.html" class="nav-link">Research</a>
+                <a href="news.html" class="nav-link">News</a>
+                <a href="events.html" class="nav-link">Events</a>
             </div>
      </div>
       <div class="welcome">
@@ -66,9 +68,23 @@
         </div>
         <div class="image2">
             <div class="image-overlay">
-
+                <div>
+                    <p class="overlay-txt">
+                        Want to be part of the Computer Science Students Association? 
+                        Join Now!
+                    </p>
+                    
+                        <a href="signup.html" class="sign-up" id="sign-up-button">
+                            Sign Up
+                        </a>
+                        <a href="login.html" class="log-in" id="Log-in-button">
+                           Log In
+                        </a>
+                    
+                </div>
             </div>
         </div>
+        &nbsp;
        <footer class="footer">
             <div class="footer-container">
                 <div class="foot1">
@@ -80,7 +96,8 @@
                     <p>Academic Calendar</p><br>
                     <p>Level 200 & 300 Timetable</p><br>
                     <p>Placements For Level 200 Students</p><br>
-                    <p>Student Complaint Form</p>
+                    <p>Student Complaint Form</p> &nbsp;
+                    &nbsp;
                 </div>
                 <div class="foot2">
                     <h2>Admissions</h2><br>
@@ -88,7 +105,9 @@
                     <p>Graduate</p><br>
                     <p>International Students</p><br>
                     <p>Entry Requirements</p><br>
-                    <p>Contact Us</p>
+                    <a href="contact.html" class="contact-btn" id="contact-button" target="_blank"> 
+                        Contact Us
+                    </a> 
                 </div>
                 <div class="foot3">
                     <h2>Research</h2><br>
@@ -106,13 +125,32 @@
                     <h2>Newsletter</h2><br>
                     <p class="slight">Stay update with our latest</p><br>
                 
-                    <div class="search-container">
-                        <input type="email" class="search-bar" placeholder="Enter Email Address">
-                    </div>
-                    
+                    <div class="w-form">
+                        <form
+                        id="email-form"
+                        name="email-form"
+                        data-name="Email Form"
+                        method="get"
+                        class="form"
+                        >
+                        <input
+                            type="text"
+                            class="text-field w-input"
+                            maxlength="256"
+                            name="name"
+                            data-name="Name"
+                            placeholder="Enter Email Address"
+                            id="name"
+                        /><input
+                            type="submit"
+                            value="Submit"
+                            class="submit-button w-button"
+                        />
+                        </form>
+                  </div>
                 </div>
                 <div>
-                    <h2 class="call">Contact Us</h2><br>
+                    <h2 class="call">Reach Us</h2><br>
                     <h2 class="h-tag">Phone & Email</h2><br>
                     <p class="p-tag">
                         +233 501 382 035 <br>
@@ -128,7 +166,6 @@
                         Opposite<br>
                         Mathematics Department
                     </p>
-
                 </div>
                 
             </div>
